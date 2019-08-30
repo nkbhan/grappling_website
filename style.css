@@ -52,15 +52,13 @@ img {
 }
 
 .main-nav a {
-    background: var(--primary);
+    background: var(--red);
     display: block;
     text-decoration: none;
     padding: 0.8rem;
     text-align: center;
-    color: var(--dark);
-    /* text-transform: uppercase; */
+    color: var(--white);
     font-size: 1.1rem;
-    /* box-shadow: var(--shadow) */
 }
 
 .main-nav a:hover {
