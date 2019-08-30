@@ -1,8 +1,11 @@
 /* CSS Variables */
 :root {
     --primary: #ddd;
+    --red: #b00;
     --dark: #333;
-    --light: #fff;
+    --darkgrey: #666;
+    --light: #e0e0e0;
+    --white: #fff; 
     --shadow: 0 1px 5px rgba(104, 104, 104, 0.8)
 }
 
