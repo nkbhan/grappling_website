@@ -46,7 +46,9 @@ img {
     padding: 0;
     list-style: none;
     grid-template-columns: repeat(5, 1fr);
-    box-shadow: var(--shadow)
+    box-shadow: var(--shadow);
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .main-nav a {
