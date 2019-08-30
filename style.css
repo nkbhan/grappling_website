@@ -16,9 +16,11 @@ html {
 }
 
 body {
-    background: #eee;
-    margin: 30px 50px;
+    background: var(--white);
     line-height: 1.4;
+    top: 0;
+    bottom: 0;
+    margin: 0;
 }
 
 .btn {
