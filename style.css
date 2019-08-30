@@ -61,9 +61,19 @@ img {
     font-size: 1.1rem;
 }
 
+.main-nav .current a {
+    background: var(--white);
+    color: var(--dark)
+}
+
 .main-nav a:hover {
-    background: var(--dark);
-    color: var(--light)
+    background: var(--white);
+    color: var(--dark)
+}
+
+.main-nav .current a:hover {
+    background: var(--primary);
+    color: var(--dark)
 }
 
 /* Top Container */
