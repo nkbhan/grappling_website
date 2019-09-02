@@ -150,6 +150,9 @@ img {
     margin-left: 20px;
     margin-right: 20px;
     grid-area: boxes;
+}
+
+.index-boxes {
     display: grid;
     grid-gap: 20px;
     grid-template-areas:
@@ -157,7 +160,6 @@ img {
         'video2 info2 info2';
     grid-template-columns: repeat(3, 1fr)
     /* border: 1px solid #333; */
-
 }
 
 .box {
