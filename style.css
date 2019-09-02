@@ -348,8 +348,8 @@ footer {
     padding-right: 20vw;
 }
 
-.schedule-table th, 
-.schedule-table td{
+.table th, 
+.table td{
     padding: 8px 8px;
     display: table-cell;
     text-align: left;
