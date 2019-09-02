@@ -22,6 +22,7 @@ body {
     bottom: 0;
     margin: 0;
     min-height: 100vh;
+    font-size: 18px;
 }
 
 img {
@@ -355,6 +356,14 @@ footer {
     vertical-align: top;
 }
 
+/* faq page */
+.box.qa h4 {
+    text-align: left;
+}
+
+.faq-boxes {
+    padding-right: 20vw;
+}
 
 /* Media Queries */
 @media(max-width: 700px) {
@@ -412,6 +421,10 @@ footer {
         padding-top: 0;
         /* margin-top: -2rem; */
         /* display: flex; */
+        padding-right: 0;
+    }
+
+    .faq-boxes {
         padding-right: 0;
     }
 }
