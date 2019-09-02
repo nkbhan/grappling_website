@@ -85,39 +85,32 @@ img {
 }
 
 /* Top Container */
+
 .top-container {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-areas:
-        'showcase showcase top-box-a'
-        'showcase showcase top-box-b';
+    grid-area: showcase;
+    margin-top: 50px;
 }
 
 /* Showcase */
 .showcase {
-    grid-area: showcase;
-    min-height: 400px;
-    background: url(images/side_back_dark.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 3rem;
+    min-height: 100px;
+    /* background: url(images/CMU-Tartan-Digital.png);
+    background-size: 450px;
+    box-shadow: var(--shadow); */
+    padding-left: 3rem;
+    padding-right: 3rem;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    box-shadow: var(--shadow);
+    /* margin-bottom: 1rem; */
 }
 
 .showcase h1 {
-    font-size: 4rem;
-    margin-bottom: 0;
-    color: var(--light);
-}
-
-.showcase p {
-    font-size: 1.3rem;
-    margin-top: 0;
-    color: var(--light)
+    font-size: 3.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--red);
 }
 
 /* Top Box */
