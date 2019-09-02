@@ -339,6 +339,22 @@ footer {
     box-shadow: var(--shadow);
 }
 
+/* Schedule Page */
+.schedule-boxes {
+    padding-top: 0;
+    /* margin-top: -2rem; */
+    /* display: flex; */
+    padding-right: 20vw;
+}
+
+.schedule-table th, 
+.schedule-table td{
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
+
 
 /* Media Queries */
 @media(max-width: 700px) {
@@ -390,6 +406,13 @@ footer {
 
     .footer_logo {
         margin: .5rem;
+    }
+
+    .schedule-boxes {
+        padding-top: 0;
+        /* margin-top: -2rem; */
+        /* display: flex; */
+        padding-right: 0;
     }
 }
 
