@@ -225,6 +225,22 @@ img {
     text-align: left;
 }
 
+.desc a {
+    background-color: transparent;
+    color: #b00;
+    border-bottom: 1px solid #faa;
+    text-decoration: none;
+    -webkit-text-decoration-skip: objects
+}
+
+.desc a:active,
+.desc a:hover,
+.desc a:focus {
+    color: red;
+    outline-width: 0;
+    border-bottom-color: red
+}
+
 /* footer */
 footer {
     bottom: 0; 
