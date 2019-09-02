@@ -365,6 +365,21 @@ footer {
     padding-right: 20vw;
 }
 
+/* contact page */
+
+.contact-boxes {
+    padding-top: 0;
+    /* margin-top: -2rem; */
+    display: flexboc;
+    flex-direction: row;
+    /* grid-gap: 20px; */
+    /* grid-template-areas:
+        'about-info about-info about-pic'
+        'about-info about-info about-pic';
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto; */
+}
+
 /* Media Queries */
 @media(max-width: 700px) {
     .top-container {
