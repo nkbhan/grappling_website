@@ -370,7 +370,7 @@ footer {
 .contact-boxes {
     padding-top: 0;
     /* margin-top: -2rem; */
-    display: flexboc;
+    display: flexbox;
     flex-direction: row;
     /* grid-gap: 20px; */
     /* grid-template-areas:
@@ -408,7 +408,7 @@ footer {
     }
 
     .index-boxes {
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
         grid-template-areas: 
             'info1' 
             'video1'
@@ -416,8 +416,12 @@ footer {
             'video2';
     }
 
+    .box.video {
+        display: none
+    }
+
     .about-boxes {
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
         grid-template-areas: 
             'about-info'
             'about-pic';
